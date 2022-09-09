@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "ec-canvas": "../../../ec-canvas/ec-canvas"
+  },
+  "navigationBarTitleText": "主页评论分析记录"
+  
+}

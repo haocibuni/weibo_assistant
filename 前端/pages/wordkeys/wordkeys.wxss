@@ -1,0 +1,142 @@
+@import "../../icons_list/icons_list.wxss";
+page {
+    background: #F5F5F5;
+    height: 100%;
+    width: 100%;
+}
+.search-header {
+  position: relative;
+  height:64rpx;
+  background: #ffffff;
+  padding-top: 14rpx;
+}
+.search-input {
+  margin:0 120rpx 0 20rpx;
+  background: #F5F5F5;
+  height:60rpx;
+  border-radius:8rpx;
+}
+.search-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 120rpx;
+  line-height: 88rpx;
+  color:#000000;
+  text-align: center;
+}
+.swiper-tab{
+  background-color: #ffffff;
+  width: 100%;
+  /* border-bottom: 2rpx solid	#ccc; */
+  text-align: center;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.swiper-tab-item{
+  width: 30%; 
+  color:#000000;
+}
+.swiper-emotion{
+  /* margin-top: 20rpx; */
+  margin-left: 57rpx;
+  /* margin-bottom: 10rpx; */
+  color: #666666;
+  font-size: 30rpx;
+  background: white;
+}
+.active{
+  color:#FF8201;
+  border-bottom: 4rpx solid #FF8201;
+}
+.container {
+    background: white;
+    margin-bottom: 4rpx;
+    margin-top: 4rpx;
+    box-shadow: 0 1 rpx 6 rpx rgba(0, 0, 0, 0.1)
+}
+.image-container {
+    background: white;
+   height: 100%;
+    width: 100%;
+}
+.tip-content {
+  margin-top: 20rpx;
+  margin-left: 57rpx;
+  margin-bottom: 10rpx;
+  color: #272727;
+  font-size: 40rpx;
+  word-break: keep-all;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+.tip-name {
+  position: relative;
+  right: 0px;
+  top: 0px;
+  margin-top: 10rpx;
+  margin-left: 57rpx;
+  margin-bottom: 20rpx;
+  color: #272727;
+  font-size: 30rpx;
+}
+
+.weibo_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.weibo_list .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  color: #272727;
+  font-size: 32rpx;
+}
+.weibo_list .mid{
+  margin-top: 20rpx;
+  margin-left: 57rpx;
+  margin-bottom: 10rpx;
+  color: #272727;
+  font-size: 40rpx;
+  word-break: keep-all;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+.weibo_list .bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  color: #272727;
+  font-size: 40rpx;
+}
+.word-image1 {
+  margin-top: 4rpx;
+  display: flex;
+  height: 140px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.word-image1 ec-canvas {
+  height: 100%;
+  width: 100%;
+}
+.word-image2 {
+  margin-top: 4rpx;
+  display: flex;
+  height: 60%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.word-image2 image {
+  height: 100%;
+  width: 100%;
+}
+

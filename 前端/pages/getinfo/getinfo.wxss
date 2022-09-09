@@ -1,0 +1,27 @@
+/* pages/getinfo/getinfo.wxss */
+page{
+    background: #f8f8f8
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 150rpx;
+}
+.row{
+    margin: auto;
+    text-align: center;
+    margin-top: 40rpx;
+    margin-bottom: 40rpx;
+    border: 1rpx black solid;
+    width: 80%
+}
+.text{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 40rpx;
+}
+.button{
+    border-radius: 50rpx;
+    width: 80%;
+    font-size: 35rpx;
+}

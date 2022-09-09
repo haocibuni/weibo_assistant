@@ -1,0 +1,6 @@
+<!-- pages/user/weibo_ histories/weibo_histories.wxml-->
+<view class="container">
+  <view class='echart_wrap'>
+     <ec-canvas id="mychart" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+  </view>
+</view>

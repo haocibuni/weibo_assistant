@@ -1,0 +1,50 @@
+{
+  "pages": [
+    
+    "pages/getinfo/getinfo",
+    "pages/wordkeys/wordkeys",
+    "pages/weibopage/weibopage",
+    "pages/user/user",
+    "pages/user/keywords_ histories/keywords_histories",
+    "pages/user/weibo_histories/weibo_histories",
+    "pages/user/set_up/set_up"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "微舆情助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "color": "#000000",
+    "selectedColor": "#FF8201",
+    "list": [
+      {
+        "pagePath": "pages/wordkeys/wordkeys",
+        "text": "关键词",
+        "iconPath": "icons/search_off.png",
+        "selectedIconPath": "icons/search_on.png"
+      },
+      {
+        "pagePath": "pages/weibopage/weibopage",
+        "text": "微博主页",
+        "iconPath": "icons/weibo_off.png",
+        "selectedIconPath": "icons/weibo_on.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "icons/myOff.png",
+        "selectedIconPath": "icons/myOn.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "networkTimeout": {
+    "request": 1000000,
+    "downloadFile": 10000
+  }
+}

@@ -1,0 +1,197 @@
+/* pages/weibopage/weibopage.wxss */
+@import "../../icons_list/icons_list.wxss";
+page {
+    background: #f8f8f8;
+}
+.search-header {
+  position: relative;
+  height:37px;
+  background: #FFFFFF;
+  padding-top: 7px;
+}
+.search-input {
+  margin:0 60px 0 10px;
+  background: #F5F5F5;
+  height:30px;
+  border-radius:4px;
+}
+.search-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60px;
+  line-height: 44px;
+  color:#000000;
+  text-align: center;
+
+}
+.analyse-header {
+  position: relative;
+  height:130rpx;
+  background: #FFFFFF;
+  padding-top: 10rpx;
+}
+.analyse-input {
+  margin:0 10rpx 0 10rpx;
+  background: #F5F5F5;
+  height:50rpx;
+  border-radius:4rpx;
+}
+.analyse-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 45rpx;
+  color:#000000;
+}
+.analyse-btn-box {
+  color: #FF8201;
+  line-height: 45rpx;
+  padding: 1rpx 10rpx;
+  border:1rpx solid #FF8201;
+  border-radius:30rpx;
+  margin-top: 20rpx;
+}
+
+.analyse-btn1 {
+  position: absolute;
+  left:10px;
+  width: 70px;
+  line-height: 44px;
+  color:#000000;
+  text-align: center;
+}
+.analyse-btn2 {
+  position: absolute;
+  left:90px;
+  width: 70px;
+  line-height: 44px;
+  color:#000000;
+  text-align: center;
+}
+
+.swiper-tab{
+  background-color: #ffffff;
+  width: 100%;
+  /* border-top: 2rpx solid #ccc; */
+  text-align: center;
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.swiper-tab-item{
+  width: 30%; 
+  color:#434343;
+}
+.swiper-emotion{
+  /* margin-top: 20rpx; */
+  margin-left: 57rpx;
+  /* margin-bottom: 10rpx; */
+  color: #666666;
+  font-size: 30rpx;
+  background: white;
+}
+.url-example{
+   display:flex;      
+   
+  margin-left: 20rpx;
+  margin-bottom: 10rpx;
+  color: #666666;
+  font-size: 30rpx;
+}
+.mark{
+  background-color: #FF8201
+}
+.active{
+  color:#FF8201;
+  border-bottom: 4rpx solid #FF8201;
+}
+.container {   
+    background: white;
+    margin-bottom: 4rpx;
+    margin-top: 4rpx;
+    box-shadow: 0 1 rpx 6 rpx rgba(0, 0, 0, 0.1)
+}
+.image-container {
+    background: white;
+   height: 100%;
+    width: 100%;
+}
+.tip-content {
+  margin-top: 20rpx;
+  margin-left: 57rpx;
+  margin-bottom: 10rpx;
+  color: #272727;
+  font-size: 40rpx;
+  word-break: keep-all;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+.tip-name {
+  position: relative;
+  right: 0px;
+  top: 0px;
+  margin-top: 10rpx;
+  margin-left: 57rpx;
+  margin-bottom: 20rpx;
+  color: #272727;
+  font-size: 30rpx;
+}
+
+.weibo_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.weibo_list .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  color: #272727;
+  font-size: 32rpx;
+}
+.weibo_list .mid {
+  margin-top: 20rpx;
+  margin-left: 57rpx;
+  margin-bottom: 10rpx;
+  color: #272727;
+  font-size: 40rpx;
+  word-break: keep-all;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+.word-image1 {
+  margin-top: 4rpx;
+  display: flex;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.word-image1 ec-canvas {
+  height: 100%;
+  width: 100%;
+}
+.word-image2 {
+  margin-top: 4rpx;
+  display: flex;
+  height: 60%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.word-image2 image {
+  height: 100%;
+  width: 100%;
+}
+.example-image{
+  display:flex;      
+  justify-content: center;
+  align-items:center;  
+
+  
+}
+

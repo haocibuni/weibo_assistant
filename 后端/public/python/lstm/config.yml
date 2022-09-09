@@ -1,0 +1,10 @@
+data:
+  min_frequency: 3
+  stopword_path: ./text_data/stopwords.txt
+  positive_path: ./text_data/comments_positive.txt
+  negative_path: ./text_data/comments_negative.txt
+  vocab_path: ./text_data/vocab.pkl
+  train_path: ./text_data/train.pkl
+  test_path: ./text_data/test.pkl
+  seg_path: ./text_data/seg.txt
+

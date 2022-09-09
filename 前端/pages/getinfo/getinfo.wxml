@@ -1,0 +1,19 @@
+<!-- pages/getinfo/getinfo.wxml-->
+    <view wx:if="{{canIUse}}" >
+        <view wx:if="{{accept}}">   </view>
+        <view wx:else>
+    <view class="image">
+        <!-- src="../icons/wechat.png" -->
+    <image   mode="widthFix" style="width:20%"></image>
+    </view>
+    <view class="row"></view>
+    <view class="text" style="font-weight: bold">申请获取以下权限：</view>
+    <view class="text" style="font-size: small;color: #999999">获得您的公开信息（昵称，头像等）</view>
+    <view style="margin-top: 100rpx">
+    <button class="button" type="primary" open-type="getUserInfo"  bindgetuserinfo="bindGetUserInfo">点击授权</button>
+    <!-- <button class="button" type="primary" bindtap="bindGetUserInfo">点击授权</button> -->
+    </view>
+    </view>
+    </view>
+        <view wx:else>请升级微信版本</view>
+

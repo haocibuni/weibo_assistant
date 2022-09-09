@@ -1,0 +1,24 @@
+<!--pages/user/set_up/set_up.wxml-->
+<view wx:if="{{!success}}">
+  <view class="tui-content">
+    <view class="tui-slider-head">关键词舆情分析深度 当前值：{{kwDepth}}</view>
+    <view class="tui-slider-box">
+      <slider bindchange="changeSlider1" step="20" min="{{min}}" max="{{max}}" value="{{kwDepth}}" show-value/>
+    </view>
+  </view>
+  <view class="tui-content">
+    <view class="tui-slider-head">主页评论舆情分析深度 当前值：{{pgDepth}}</view>
+    <view class="tui-slider-box">
+      <slider bindchange="changeSlider2" step="20" min="{{min}}" max="{{max}}"  value="{{pgDepth}}" show-value/>
+    </view>
+  </view>
+  <view class='submit-button' bindtap="handleSubmit">保存设置</view>
+</view>
+<view wx:if="{{success}}" class="success">
+  <view class="congratulation"> <icon class="success-icon" type="success" size="23"/>
+  设置成功！</view>
+  <button type="default" class='backhome-button' bindtap='handleBackTap' > 返回用户界面</button>
+</view>
+
+
+

@@ -1,0 +1,22 @@
+<!-- pages/user/ user.wxml-->
+<view>
+  <view class="head">
+    <image src="{{personPhoto}}" class="personPhoto"></image>
+  </view>
+  <view class="container" bindtap="chooseKeywordHistories">
+    <image src="../../icons/key_words.png" class="image"></image>
+    <view class="cont">关键词分析记录</view>
+    <view class="arrow" />
+  </view>
+  <view class="container" bindtap="chooseWeiboHistories">
+    <image src="../../icons/myWork.png" class="image"></image>
+    <view class="cont">主页评论分析记录</view>
+    <view class="arrow a2" />
+  </view>
+  <view class="container" bindtap="chooseSetUp">
+    <image src="../../icons/setting.png" class="image"></image>
+    <view class="cont">设置</view>
+    <view class="arrow a3" />
+  </view>
+
+</view>

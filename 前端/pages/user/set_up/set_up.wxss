@@ -1,0 +1,35 @@
+/* pages/user/set_up/set_up.wxss */
+.tui-slider-head,.tui-slider-box{
+  height: 80rpx;
+  margin-left: 20px;
+  line-height: 80rpx;
+  font-size: 35rpx;
+  color: #666;
+}
+.submit-button {
+  margin:10px 8px 0 8px;
+  background: #14cf2d;
+  line-height: 40px;
+  border-radius: 6px;
+  text-align: center;
+  color: #fff;
+}
+.congratulation {
+  text-align: center;
+  font-size: 20px;
+  line-height: 80px;
+  
+}
+.success-icon {
+  position: relative;
+  top:4px;
+  margin-right: 6px;
+}
+.backhome-button {
+  margin: 20px;
+}
+.success {
+  background: #fff;
+  padding-bottom: 5px;
+  padding-top:30px;
+}

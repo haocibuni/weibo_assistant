@@ -1,0 +1,107 @@
+<!--pages/wordkeys/wordkeys.wxml-->
+  <view class="search-header">
+    <input class='search-input' placeholder='  请输入微博关键词' placeholder-class='pla' bindinput='input_txt' bindconfirm='btn_search' value='{{searchValue}}'></input>
+    <view class='search-btn' bindtap='btn_search'>搜索</view>
+  </view>
+  <view class='history' bindtap='deleteHistory' wx:if="{{showHistory}}">清除搜索历史</view>
+  <view class='h_con' wx:if="{{showHistory}}">
+    <view class='h_con1'>
+      <view class="title" wx:for="{{history}}" bindtap='toSearch' data-value='{{item}}' data-index="{{index}}">{{item}}</view>
+    </view>
+  </view>
+
+<view class="swiper-tab"> 
+  <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">总体分析</view>
+  <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">积极实例</view>
+  <view class="swiper-tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="clickTab">消极实例</view>
+</view>
+
+<swiper  wx:if='{{search}}' current="{{currentTab}}" style="height:{{swiper_height}}rpx" duration="300" bindchange="swiperTab">
+
+  <swiper-item>
+    <view class="image-container">
+       <view class="swiper-emotion">关键词总体情感倾向(百分制)：{{emotion}}分</view>
+    <view class="word-image1">
+      <ec-canvas id="mychart" canvas-id="mychart-pie" ec="{{ ec }}" bind:init="echartInit"></ec-canvas>
+    </view>
+    <view class="word-image2">
+     <image src="{{imageUrl}}" mode="scaleToFill" ></image>
+    </view>
+    </view>
+   
+  </swiper-item>
+
+  <swiper-item>
+    <scroll-view style="height:{{swiper_height}}rpx" scroll-y = "true">
+      <view class="container" wx:for="{{active}}" wx:key="index">
+        <view class="weibo_list">
+          <!-- 上层 -->
+          <view class="top">
+            <view>
+              <icon class="iconfont icon-account" style="color:black;font-size:60rpx;"></icon>
+              <text selectable="ture">{{item.weibo_name}}</text>
+            </view>
+            <icon class="iconfont icon-smile" style="color:	#0c8918;font-size:60rpx;"></icon>
+          </view>
+          <!-- 中层 -->
+          <view class="mid">
+            <text selectable="ture">{{item.content}}</text>
+          </view>
+          <!-- 底层 -->
+          <view class="bottom">
+            <view>
+              <icon class="iconfont icon-share" style="color:black;font-size:60rpx;"></icon>
+              <text>{{item.forward_num}}</text>
+            </view>
+            <view>
+              <icon class="iconfont icon-comments" style="color:black;font-size:60rpx;"></icon>
+              <text>{{item.conment_num}}</text>
+            </view>
+            <view>
+              <icon class="iconfont icon-good" style="color:black;font-size:60rpx;"></icon>
+              <text>{{item.like_num}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </swiper-item>
+
+<swiper-item>
+  <scroll-view style="height:{{swiper_height}}rpx" scroll-y = "true">
+    <view class="container" wx:for="{{negative}}" wx:key="index">
+      <view class="weibo_list">
+        <!-- 上层 -->
+        <view class="top">
+          <view>
+            <icon class="iconfont icon-account" style="color:black;font-size:60rpx;"></icon>
+            <text selectable="ture">{{item.weibo_name}}</text>
+          </view>
+          <icon class="iconfont .icon-cry" style="color:#FF0000;font-size:60rpx;"></icon>
+        </view>
+        <!-- 中层 -->
+        <view class="mid">
+          <text selectable="ture">{{item.content}}</text>
+        </view>
+        <!-- 底层 -->
+        <view class="bottom">
+          <view>
+            <icon class="iconfont icon-share" style="color:black;font-size:60rpx;"></icon>
+            <text>{{item.forward_num}}</text>
+          </view>
+          <view>
+            <icon class="iconfont icon-comments" style="color:black;font-size:60rpx;"></icon>
+            <text>{{item.conment_num}}</text>
+          </view>
+          <view>
+            <icon class="iconfont icon-good" style="color:black;font-size:60rpx;"></icon>
+            <text>{{item.like_num}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+    
+  </swiper-item>
+
+</swiper>

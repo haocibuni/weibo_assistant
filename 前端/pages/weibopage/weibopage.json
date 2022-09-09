@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "主页评论舆情",
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+  }
+}

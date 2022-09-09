@@ -1,0 +1,71 @@
+/* car/car.wxss */
+page {
+    background: #f8f8f8;
+    /*background: red;*/
+}
+
+.head {
+    background: #f8f8f8;
+}
+
+.personPhoto {
+    margin-top: 15rpx;
+    margin-left: 40rpx;
+    margin-bottom: 15rpx;
+    width: 150rpx;
+    height: 150rpx;
+    border-radius:50%
+}
+
+.container {
+    display: flex;
+    background: white;
+    /*border-bottom: 2px black solid;*/
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+    box-shadow: 0 1 rpx 6 rpx rgba(0, 0, 0, 0.1)
+}
+
+.image {
+    margin-top: 8px;
+    width: 30px;
+    height: 30px;
+    padding-left: 20px
+}
+
+.cont {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    height: 48px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*箭头图标*/
+.arrow {
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #999;
+    border-right: 2px solid #999;
+    position: absolute;
+    right: 20px;
+    transform: rotate(45deg);
+    top: 113px;
+}
+
+.a2 {
+    top: 163px;
+}
+
+.a3 {
+    top: 213px;
+}
+
+.a4 {
+    top: 263px;
+}
+
+.a5 {
+    top: 313px;
+}

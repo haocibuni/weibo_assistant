@@ -1,0 +1,7 @@
+<!--pages/user/keywords_ histories/keywords_histories.wxml-->
+<view class='content'>
+  <block wx:for="{{labArr}}" wx:key="key" wx:for-index="key" wx:for-item="v">
+    <view class='lab' data-key="{{key}}" style="background-color:{{randomColorArr[key]}}">{{v.keyword}} 情感倾向:{{v.ave_value}} 时间:{{v.date}}</view>
+  </block>
+</view>
+
