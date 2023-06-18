@@ -25,23 +25,23 @@ LSTM文本情感分析模型以SavedModel格式保存在后端/public/python/lst
 最后进入```/后端路径/public/python/lstm```路径后,执行```nohup python3 flask_api.py >/dev/null 2>&1 &```启动flask后端接口
 ## 效果展示
 ### 授权登录页面
-![image-20220913155400508](http://nas.wulei.co:5543/2022/09/image-20220913155400508.png)
+![image-20220913155400508](http://nas.wulei.pro:5543/2022/09/image-20220913155400508.png)
 ### 关键词舆情分析模块及历史记录的使用
 
-![image-20220913155619374](http://nas.wulei.co:5543/2022/09/image-20220913155619374.png)
+![image-20220913155619374](http://nas.wulei.pro:5543/2022/09/image-20220913155619374.png)
 
-![image-20220913155648375](http://nas.wulei.co:5543/2022/09/image-20220913155648375.png)
+![image-20220913155648375](http://nas.wulei.pro:5543/2022/09/image-20220913155648375.png)
 
-![image-20220913155704610](http://nas.wulei.co:5543/2022/09/image-20220913155704610.png)
+![image-20220913155704610](http://nas.wulei.pro:5543/2022/09/image-20220913155704610.png)
 ### 微博主页评论舆情分析模块及历史记录的使用
 
-![image-20220913155808168](http://nas.wulei.co:5543/2022/09/image-20220913155808168.png)
+![image-20220913155808168](http://nas.wulei.pro:5543/2022/09/image-20220913155808168.png)
 
-![image-20220913155824829](http://nas.wulei.co:5543/2022/09/image-20220913155824829.png)
+![image-20220913155824829](http://nas.wulei.pro:5543/2022/09/image-20220913155824829.png)
 
-![image-20220913155848547](http://nas.wulei.co:5543/2022/09/image-20220913155848547.png)
+![image-20220913155848547](http://nas.wulei.pro:5543/2022/09/image-20220913155848547.png)
 
-![image-20220913155904554](http://nas.wulei.co:5543/2022/09/image-20220913155904554.png)
+![image-20220913155904554](http://nas.wulei.pro:5543/2022/09/image-20220913155904554.png)
 ### 用户分析深度设置的使用
 
-![image-20220913155957384](http://nas.wulei.co:5543/2022/09/image-20220913155957384.png)
+![image-20220913155957384](http://nas.wulei.pro:5543/2022/09/image-20220913155957384.png)
