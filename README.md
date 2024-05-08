@@ -25,23 +25,20 @@ LSTM文本情感分析模型以SavedModel格式保存在后端/public/python/lst
 最后进入```/后端路径/public/python/lstm```路径后,执行```nohup python3 flask_api.py >/dev/null 2>&1 &```启动flask后端接口
 ## 效果展示
 ### 授权登录页面
-![image-20220913155400508](http://nas.wulei.pro:5543/2022/09/image-20220913155400508.png)
+![授权登录.png](https://nas.wulei.pro:5088/i/2024/05/08/663b7f3975e05.png)
 ### 关键词舆情分析模块及历史记录的使用
-
-![image-20220913155619374](http://nas.wulei.pro:5543/2022/09/image-20220913155619374.png)
-
-![image-20220913155648375](http://nas.wulei.pro:5543/2022/09/image-20220913155648375.png)
-
-![image-20220913155704610](http://nas.wulei.pro:5543/2022/09/image-20220913155704610.png)
+![关键词总体分析展示.jpg](https://nas.wulei.pro:5088/i/2024/05/08/663b7f3e0ecd4.jpg)
+![关键词消极实例展示.jpg](https://nas.wulei.pro:5088/i/2024/05/08/663b7f3d52f5c.jpg)
+![关键词积极实例展示.jpg](https://nas.wulei.pro:5088/i/2024/05/08/663b7f3c9d231.jpg)
+![关键词分析记录.jpg](https://nas.wulei.pro:5088/i/2024/05/08/663b7f3bdf7da.jpg)
+![分析深度设置.jpg](https://nas.wulei.pro:5088/i/2024/05/08/663b7f3a60c15.jpg)
 ### 微博主页评论舆情分析模块及历史记录的使用
-
-![image-20220913155808168](http://nas.wulei.pro:5543/2022/09/image-20220913155808168.png)
-
-![image-20220913155824829](http://nas.wulei.pro:5543/2022/09/image-20220913155824829.png)
-
-![image-20220913155848547](http://nas.wulei.pro:5543/2022/09/image-20220913155848547.png)
-
-![image-20220913155904554](http://nas.wulei.pro:5543/2022/09/image-20220913155904554.png)
+![微博主页评论绑定.jpg](https://nas.wulei.pro:5088/i/2024/05/08/663b7f4324a4b.jpg)
+![微博主页评论分析.jpg](https://nas.wulei.pro:5088/i/2024/05/08/663b7f440b8f6.jpg)
+![微博主页评论总体分析展示.jpg](https://nas.wulei.pro:5088/i/2024/05/08/663b7f45ceedb.jpg)
+![微博主页评论分析.jpg](https://nas.wulei.pro:5088/i/2024/05/08/663b7f440b8f6.jpg)
+![微博评论积极实例展示.jpg](https://nas.wulei.pro:5088/i/2024/05/08/663b7f3fb5fc9.jpg)
+![微博评论消极实例展示.jpg](https://nas.wulei.pro:5088/i/2024/05/08/663b7f40ce75e.jpg)
+![微博主页评论分析记录.jpg](https://nas.wulei.pro:5088/i/2024/05/08/663b7f44d7dbe.jpg)
 ### 用户分析深度设置的使用
-
-![image-20220913155957384](http://nas.wulei.pro:5543/2022/09/image-20220913155957384.png)
+![分析深度设置.jpg](https://nas.wulei.pro:5088/i/2024/05/08/663b7f3a60c15.jpg)
