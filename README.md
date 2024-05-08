@@ -25,7 +25,7 @@ LSTM文本情感分析模型以SavedModel格式保存在后端/public/python/lst
 最后进入```/后端路径/public/python/lstm```路径后,执行```nohup python3 flask_api.py >/dev/null 2>&1 &```启动flask后端接口
 ## 效果展示
 ### 授权登录页面
-![授权登录.png](http://nas.wulei.pro:5088/i/2024/05/08/663b7f3975e05.png)
+![授权登录.png](https://nas.wulei.pro:5088/upload/2024/05/08/663b7f3975e05.png)
 ### 关键词舆情分析模块及历史记录的使用
 ![关键词总体分析展示.jpg](http://nas.wulei.pro:5088/i/2024/05/08/663b7f3e0ecd4.jpg)
 ![关键词消极实例展示.jpg](http://nas.wulei.pro:5088/i/2024/05/08/663b7f3d52f5c.jpg)
